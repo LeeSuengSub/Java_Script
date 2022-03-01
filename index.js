@@ -15,14 +15,24 @@ console.log(result)
 if(result==30){
     console.log('30 입니다.')
 }
+//숫자 0~9까지 나열하기
 for(var i=0; i<10; i++){
     console.log(i)
 }
+//짝수 출력하기
 for(var i=0; i<=10; i++){
     if((i%2)==0){
         console.log(i+'은 짝수 입니다.')
     }
 }
+//별 찍기
 for(var i=0; i<6; i++){
     console.log('*'.repeat(i+1))
 }
+//갯수 구하는 방법.
+var count=0; 
+for(var i=0; i<10; i++){
+    if(i%2==0){
+        count++
+    }
+}console.log(count)
