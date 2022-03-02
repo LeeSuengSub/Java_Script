@@ -31,7 +31,7 @@ for(var i=0; i<6; i++){
 }
 //갯수 구하는 방법.
 var count=0; 
-for(var i=0; i<10; i++){
+for(var i=1; i<=10; i++){
     if(i%2==0){
         count++
     }
